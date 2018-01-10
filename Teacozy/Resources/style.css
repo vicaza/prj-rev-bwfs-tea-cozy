@@ -1,0 +1,207 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+html, body, iframe {
+  height: 100%;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html {
+  font-family: helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+.header {
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  display: flex;
+  width: 100%;
+  z-index: 1;
+  background-color: black;
+}
+
+.logo {
+  margin: auto auto auto 10px;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.menu {
+  margin: auto;
+  margin-right: 10px;
+}
+
+.menu span {
+  text-decoration: underline;
+}
+
+.cuerpo {
+  padding-top: 70px;
+  width: 1200px;
+  margin: auto;
+}
+
+#mission {
+  flex-wrap: wrap;
+  background-image: url('../resources/images/img-mission-background.jpg');
+  height: 700px;
+  justify-content: center;
+  display: flex;
+}
+
+.mission-text {
+  margin: auto;
+  background-color: black;
+  width: 100%;
+}
+
+h2 {
+  font-size: 1.5em;
+  padding: 10px;
+  font-weight: bold;
+}
+
+h4 {
+  padding: 10px;
+  font-weight: bold;
+}
+
+#tienda {
+  padding-top: 70px;
+  margin: auto;
+  height: 700px;
+  width: 1000px;
+  display: block;
+}
+
+.productos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.producto {
+  padding: 5px;
+}
+
+.producto img {
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+  display: block;
+}
+
+.producto span {
+  display: block;
+  padding: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#locations {
+  background-image: url('../resources/images/img-locations-background.jpg');
+  height: 500px;
+  width: 1200px;
+  padding-top: 70px;
+  display: block;
+  margin: auto;
+}
+
+.locations {
+  margin: auto;
+  width: 1100px;
+  padding-top: 5px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.location {
+  opacity: 1.0;
+  padding: 10px;
+  margin: 5px 20px;
+  background-color: black;
+  flex-basis: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h3 {
+  padding: 10px;
+  margin: 0px;
+  font-size: 1.17em;
+  display: block;
+  font-weight: bold;
+}
+
+p {
+  display: block;
+  margin: 22px 0px;
+}
+
+h5 {
+  display: block;
+  font-size: 0.83em;
+  font-weight: bold;
+  padding: 30.494px 0px;
+}
+
+#contacto {
+  height: 200px;
+}
+
+footer {
+  text-align: left;
+  padding-left: 20px;
+}
+
+a {
+  color: seashell;
+}
